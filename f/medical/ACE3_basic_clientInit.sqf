@@ -22,6 +22,8 @@ if (isClass(configFile >> "CfgPatches" >> "ace_hearing")) then {
 player addItem "ACE_tourniquet";
 player addItem "ACE_morphine";
 
+player addItem "ACE_Flashlight_XL50";
+
 if (_typeOfUnit == "m") then
 {
     player addItem "ACE_tourniquet"; // extra tourniquet
