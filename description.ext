@@ -450,4 +450,9 @@ class ACE_settings {
 		typeName = "SCALAR";
 		force = 1;
 	};
+	class ace_weather_useACEWeather {
+		value = 0;
+		typeName = "BOOL";
+		force = 1;
+	};
 };
